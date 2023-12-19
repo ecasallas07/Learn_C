@@ -44,6 +44,7 @@ Para concatenar es utilizando el (<<) despues de los textos,por ejemplo :
  std::cout <<"Hello" << "Concatenar"
 
 Si se quiere imprimir lineas separadas se debe usar (*std::endl*):
+El stdln vacia como tal el bufer, mientras que el uso de *\n* da un salto en las lineas y su uso se considera mejor practica par texto de consola.
 std::cout << "Helllo" << std::endl;
 std::cout << "World" << "Lineas separadas"; --> Podria ser necesaria y buena practica tambien en esta linea usar la separacion pero, no hay una linea despues de esto.
 
@@ -52,3 +53,30 @@ std::cout << "World" << "Lineas separadas"; --> Podria ser necesaria y buena pra
 Espacio de memoria, en el que se almacena datos de manera temporal, normalmente para un unico uso (generalmente para el sistema FIFO), para evitar que se quede sin datos el hardware o software .
 
 En la compilacion  std::cout normalmente se almacena en un bufer. este es vaciado y todos los datos del bufer se transfieren a la consola.
+
+# Recibir valores
+Para recibir valores desde la consola:
+
+Inicializo variable para que en la variable x pueda alamacenar el valor.
+(>>) --> simbolos que es para recibir el valor de entrada.
+
+int x{}; // inicializar variable    
+--> std::cin >> x
+
+# Variables no inicializadas
+A diferencia de otros lenguajes c++ no inicializa las variables por defecto en 0, y se le denomina variable no inicializada
+- Inicializado = Al objeto se le asigna un valor conocido en el punto de definición.
+- Asignación = Al objeto se le asigna un valor conocido más allá del punto de definición.
+- No inicializado = Al objeto aún no se le ha asignado un valor conocido.
+
+*Si C++ inicializara todas esas variables con valores predeterminados al momento de su creación, esto daría como resultado 100.000 inicializaciones (lo que sería lento) y con pocos beneficios (ya que de todos modos estás sobrescribiendo esos valores).*
+
+Como buena practica siempre es inicializar las variables,para evitar problemas al depurar o el carge de recursos del programa.
+
+# Comportamiento indefinido
+Es el resultado de la ejecucion  de codigo cuyo comportamiento no esta bien definido por  el lenguaje C++, en el ejemplo mas evidente, es que no tiene reglas que determinen que sucede si se usa el valor de un variable a la que no se ha asignado un valor conocido.
+-- Caracteristicas de codigo con comportamiento indefinido
+    --> Produce resultados diferentes cada vez que se ejecuta
+    --> Produce constantemente el resultado incorrecto
+    --> Parece estar funcionando pero produce resultados incorrectos 
+    --> Funciona en algunos compiladores y en otros no
