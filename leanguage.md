@@ -80,3 +80,25 @@ Es el resultado de la ejecucion  de codigo cuyo comportamiento no esta bien defi
     --> Produce constantemente el resultado incorrecto
     --> Parece estar funcionando pero produce resultados incorrectos 
     --> Funciona en algunos compiladores y en otros no
+
+*COMO BUENA PRACTICA NO ESCRIBIR MAS DE 80 CARACTERES EN UN LINEA DE CODIGO*
+
+# Literales en la progrmacion
+- Literal es un valor fijo dispuesto en el codigo y que no es modificable en ninguno de los procesos del codigo.
+Es un valor fijo que se ha insertado directamente en el codigo fuente. A diferencia de una variable (cuyo valor se puede establecer y cambiar mediante inicialización y asignación respectivamente), el valor de un literal es fijo ( 5 es siempre 5). Por eso los literales se llaman constantes.
+
+- Operadores unarios
+    Estos actuan sobre un operando. Toma un operadorando literal ( 5 ) y cambia su valor de salida  ( -5 )
+
+- Operadores binarios
+    Estos actuan sobre dos operandos. Toma un operador (izquierda < + operador > derecha)
+
+- Operadores ternarios
+    Actuan sobre tres operandos, en C++ (el operador condicional) cumple dentro de este conjunto.
+
+- Operadores nulares
+    Actuan sobre operandos cero. Solo existe en C++(operador de lanzamiento).
+
+- Operadores de encadenamiento
+    Se encadenan de modo  que la salida de un operador pueda usarse como entrada para otro operador.  (2 < * operador > 3 < + operador > 4)
+    --> En este caso es necesario que al realizarse la operacion, se haga basado en el orden de operadores.
