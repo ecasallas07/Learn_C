@@ -83,7 +83,7 @@ Es el resultado de la ejecucion  de codigo cuyo comportamiento no esta bien defi
 
 *COMO BUENA PRACTICA NO ESCRIBIR MAS DE 80 CARACTERES EN UN LINEA DE CODIGO*
 
-# Literales en la progrmacion
+# Literales en la programacion
 - Literal es un valor fijo dispuesto en el codigo y que no es modificable en ninguno de los procesos del codigo.
 Es un valor fijo que se ha insertado directamente en el codigo fuente. A diferencia de una variable (cuyo valor se puede establecer y cambiar mediante inicialización y asignación respectivamente), el valor de un literal es fijo ( 5 es siempre 5). Por eso los literales se llaman constantes.
 
@@ -102,3 +102,15 @@ Es un valor fijo que se ha insertado directamente en el codigo fuente. A diferen
 - Operadores de encadenamiento
     Se encadenan de modo  que la salida de un operador pueda usarse como entrada para otro operador.  (2 < * operador > 3 < + operador > 4)
     --> En este caso es necesario que al realizarse la operacion, se haga basado en el orden de operadores.
+
+*SE DEBE CENTRAR EN LA MANTENIBILIDAD DEL CODIGO Y NO CENTRASE SOLO EN LA OPTIMIZACION* 
+
+
+# Conclusiones capitulo 01
+
+--> Los tipos de datos le especifican al compilador como debe interpretar el valor 
+--> Asignacion de copia es cuando se declara una variable y luego con el (=) int x = 5; , ya que se asigna un valor a una variable ya creada.
+--> Existen 3 tipos de inicializacion en C++ las cuales son  por copia, directa y de lista.
+--> Preferir la inicializacion a la asignacion en variables
+--> Una variable que no tiene un valor, se denomina variable no inicializada, e intentar devolver el valor de una variable no inicializada  genera un comportamiento indefinido.
+

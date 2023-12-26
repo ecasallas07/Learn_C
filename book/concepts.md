@@ -57,3 +57,18 @@ Cuando el programa esta corriendo  y surgen errores que son manejados por el try
 
 # Tiempo de compilacion
 Cuando se compila el programa, en el cual se pueden detectar todos los errores de sintaxis
+
+
+# Expresiones
+Una expresion es una combinacion de literales, variables, operadores y llamadas a funciones.
+
+Ejemplos:
+operando --> int c{ (3*2) + 4}
+funcion --> int x{ five() }
+
+*Estructura*
+type identifier {expresion};
+
+# Mejores practicas al desarrollo de programas
+No escribir el programa de una vez, porque se mostraran varias errores, sino que ir construyendo el progrma por piezas y luego compilar, hasta que el programa este completo.
+

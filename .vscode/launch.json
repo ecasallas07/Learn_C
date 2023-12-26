@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/mnt/c/Algorithms-DSA/C++-Algorithms/learn-C++/cap-01",
-      "program": "/mnt/c/Algorithms-DSA/C++-Algorithms/learn-C++/cap-01/build/Debug/outDebug",
+      "cwd": "/mnt/c/Algorithms-DSA/C++-Algorithms/learn-C++/book/cap-01",
+      "program": "/mnt/c/Algorithms-DSA/C++-Algorithms/learn-C++/book/cap-01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
